@@ -21,7 +21,7 @@ a {
 }
 
 h2 {
-    margin: 50px 0 20px 5%;
+    margin: 100px 0 20px 5%;
     font-size: 2em;
     width: 100%;
 }
@@ -161,16 +161,14 @@ li:hover {
     overflow: overlay;
     width: 100%;
     background-color: white;
-    /* display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; */
 }
 
 #my-work div {
-    margin: 10% 10%;
+    margin: 5% 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-content: center;
 } 
 
 #my-work a {
@@ -187,12 +185,17 @@ li:hover {
 }
 
 /* 'Contact Me' section */
-/* .contact {
-    display: flex;
-    justify-content: space-between;
+#contact-me {
+    overflow: overlay;
+    width: 100%;
+    background-color: white;
 }
 
-.contact ul{
+#contact-me ul {
+    color: black;
+    font-size: 100%;
     display: flex;
-    justify-content: space-evenly;
-} */
+    justify-content: space-between;
+    align-content: center;
+    margin: 10px 10px;
+}
