@@ -20,12 +20,6 @@ a {
     color: none;
 }
 
-h3 {
-    margin: 100px 0 20px 5%;
-    font-size: 2em;
-    width: 100%;
-}
-
 /* 'Header' section */
 #header {
     height: 74px;
@@ -209,6 +203,11 @@ h3 {
     background-color: white;
 }
 
+.hr-full {
+    width: 95%;
+    float: left;
+}
+
 #my-work div {
     width: 80%;
     margin: 0 10%;
@@ -244,13 +243,39 @@ h3 {
     overflow: overlay;
     width: 100%;
     background-color: white;
-}
-
-#contact-me ul {
-    color: black;
-    font-size: 100%;
     display: flex;
     justify-content: space-between;
     align-content: center;
-    margin: 10px 10px;
+    flex-direction: column;
+}
+
+#contact-ul {
+    color: black;
+    font-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: 0.4s;
+    height: 100px;
+    width: 80%;
+    margin: 0px 10%;
+}
+
+#contact-ul li {
+    display: flex;
+    align-self: center;
+}
+
+.social-logo {
+    width: 20px;
+    margin-right: 15px;
+}
+
+/* 'Footer' section */
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: black;
 }
