@@ -20,7 +20,7 @@ a {
     color: none;
 }
 
-h2 {
+h3 {
     margin: 100px 0 20px 5%;
     font-size: 2em;
     width: 100%;
@@ -28,13 +28,12 @@ h2 {
 
 /* 'Header' section */
 #header {
-    height: 100px;
-    width: 99%;
+    height: 74px;
+    width: 100%;
     background-color: rgba(0, 0, 0, 1);
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding: .2% 1% 1.2% 0;
+    padding: 30px 10px 15px 0;
     position: fixed;
     z-index: 1;
     transition: 0.4s;
@@ -69,7 +68,8 @@ h2 {
 
 /* Page Navigation */
 nav {
-    width: 500px;
+    width: 550px;
+    margin-right: 2%;
 }
 
 #nav-ul {
@@ -83,26 +83,43 @@ nav {
     transition: 0.4s;
 }
 
-li {
+#nav-about {
     border-bottom: 3px solid transparent;
-    padding: 15px;
     text-align: center;
+    height: 20px;
+    padding: 30px 25px 15px 25px;
 }
 
-li:hover {
+#nav-work {
+    border-bottom: 3px solid transparent;
+    text-align: center;
+    height: 20px;
+    padding: 30px 25px 15px 25px;
+}
+
+#nav-contact {
+    border-bottom: 3px solid transparent;
+    text-align: center;
+    height: 20px;
+    padding: 30px 25px 15px 25px;
+}
+
+#nav-ul li:hover {
     border-bottom-color: var(--lte-beige);
     border-style: ridge;
 }
 
 /* 'hero' section */
 #hero {
-    height: 600px;
     width: 100%;
+    min-width: 1200px;
+    height: 600px;
     margin: 0;
     display: block;
     background-color: black;
     overflow: hidden;
     border-bottom: 25px solid rgb(92, 92, 92);
+    padding-top: 119px;
 }
 
 #hero-image {
@@ -112,24 +129,34 @@ li:hover {
 /* 'hero' subtitle */
 .hero-div {
     position: relative;
-    width: 90%;
-    top: -40%;
+    width: 95%;
+    top: -430px;
     display: flex;
     justify-content: flex-end;
+    overflow: overlay;
 }
 
 .subtitle {
-    height: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
     padding: 1% 5%;
-    display: flex;
-    border-radius: 200px 200px 200px 200px;
+    border-radius: 50px;
+    padding: 30px 100px;
+}
+
+h2 {
+    font-size: 2em;
+    color: white;
+    margin: 0 0 10px 0;
+    text-indent: -30px;
 }
 
 .subtitle p {
     font-size: 120%;
     align-self: center;
+    line-height: 130%;
+    text-indent: 30px;
 }
 
 /* 'About Me' section */
@@ -177,10 +204,11 @@ li:hover {
 }
 
 #my-work div {
-    margin: 5% 10%;
+    width: 80%;
+    margin: 0 10%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     align-content: center;
 } 
 
@@ -191,10 +219,18 @@ li:hover {
     font-size: 1.2em;
 }
 
-#my-work article {
-    width: 32%;
+#work-card-large {
+    width: 90%;
     background-color: var(--drk-brown);
     margin-top: 40px;
+    margin: 50px 0;
+}
+
+.work-card {
+    width: 40%;
+    background-color: var(--drk-brown);
+    margin-top: 40px;
+    margin: 50px 0;
 }
 
 /* 'Contact Me' section */
