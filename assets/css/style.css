@@ -7,6 +7,8 @@
     --lte-beige: #E1D5B8;
     --drk-beige: #BE996E;
     --gray: rgb(92, 92, 92);
+    --background-black:rgba(0, 0, 0, 0.8);
+
 }
 
 /* Set standards for page */
@@ -127,12 +129,12 @@ nav {
     top: -420px;
     display: flex;
     justify-content: flex-end;
-    overflow: overlay;git
+    overflow: overlay;
 }
 
 .subtitle {
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--background-black);
     color: white;
     padding: 1% 5%;
     border-radius: 50px;
@@ -215,33 +217,62 @@ h3 {
 }
 
 #my-work div {
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+    margin: 0 15%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
 } 
 
-#my-work a {
-    margin: 40px 10% 0 10%;
-    text-indent: 50px;
-    line-height: 150%;
-    font-size: 1.2em;
+#work-card-large {
+    width: 65%;
+    margin: 10px 0 0 0;
+    overflow: hidden;
+    height: 300px;
+    text-align: center;
+    border: 5px solid var(--background-black);
+    background-color: black;
 }
 
-#work-card-large {
-    width: 90%;
-    background-color: var(--drk-brown);
-    margin-top: 40px;
-    margin: 50px 0;
+#tradingview-img {
+    width: 100%;
+    max-height: 265px;
+    max-width: 600px;
+    object-fit: contain;
+    opacity: .5;
+    transition: .3s;
+}
+
+#tradingview-head {
+    font-size: 200%;
+    color: white;
+    width: 100%;
+    height: 35px;
+    margin: 5px 0 0 0;
+    background-color: black;
+    border-bottom: 2px solid var(--lte-beige);
+}
+
+#tradingview-img:hover {
+    opacity: 1;
 }
 
 .work-card {
-    width: 40%;
-    background-color: var(--drk-brown);
-    margin-top: 40px;
-    margin: 50px 0;
+    margin: 10px 0 0 0;
+    border: 5px solid var(--background-black);
+    background-color: var(--background-black);
+    width: 32%;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#futurecontent-head {
+    font-size: 200%;
+    color: white;
+    margin: 10px 0 0 0;
 }
 
 /* 'Contact Me' section */
