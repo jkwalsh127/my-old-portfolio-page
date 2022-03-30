@@ -7,7 +7,7 @@
     --lte-beige: #E1D5B8;
     --drk-beige: #BE996E;
     --gray: rgb(92, 92, 92);
-    --background-black:rgba(0, 0, 0, 0.8);
+    --background-black:rgba(0, 0, 0, 0.9);
 
 }
 
@@ -27,7 +27,7 @@ a {
 #header {
     height: 74px;
     width: 100%;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: var(--background-black);
     display: flex;
     justify-content: space-between;
     padding: 30px 10px 15px 0;
@@ -124,9 +124,9 @@ nav {
 
 /* 'hero' subtitle */
 .hero-div {
-    position: relative;
+    position: absolute;
     width: 95%;
-    top: -420px;
+    top: 300px;
     display: flex;
     justify-content: flex-end;
     overflow: overlay;
