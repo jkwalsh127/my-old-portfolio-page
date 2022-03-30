@@ -1,3 +1,6 @@
+// 
+// sets fixed header resizing upon scroll
+// 
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
