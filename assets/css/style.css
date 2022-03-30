@@ -15,6 +15,7 @@
 html {
     background-color: white;
     font-family: Avenir,sans-serif;
+    min-width: 500px;
 }
 
 /* Set standards for elements */
