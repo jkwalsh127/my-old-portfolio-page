@@ -324,16 +324,22 @@ footer {
 
     #tradingview-img {
         width: 100%;
-        min-height: 265px;
+        min-height: 280px;
         min-width: 600px;
         object-fit: contain;
     }
 
     #self-portrait {
-        width: 300px;
-        height: 300px;
+        width: 270px;
+        height: 270px;
         object-fit: cover;
-        border: 10px solid var(--gray);
+        border: 3px solid var(--gray);
+    }
+
+    #about-me article {
+        background-color: white;
+        height: 550px;
+        width: 65%;
     }
 
 }
@@ -358,10 +364,13 @@ footer {
     }
 
     #self-portrait {
-        width: 300px;
-        height: 300px;
-        object-fit: cover;
-        border: 10px solid var(--gray);
+        display: none;
+    }
+
+    #about-me article {
+        background-color: white;
+        width: 100%;
+        height: 480px;
     }
     
 }
