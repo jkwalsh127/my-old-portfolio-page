@@ -127,7 +127,7 @@ nav {
     top: -420px;
     display: flex;
     justify-content: flex-end;
-    overflow: overlay;
+    overflow: overlay;git
 }
 
 .subtitle {
@@ -274,8 +274,12 @@ h3 {
     align-self: center;
 }
 
+#contact-ul .contact-li {
+    text-decoration: underline;
+}
+
 .social-logo {
-    width: 20px;
+    width: 16px;
     margin-right: 15px;
 }
 
