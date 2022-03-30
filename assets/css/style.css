@@ -15,7 +15,6 @@
 html {
     background-color: white;
     font-family: Avenir,sans-serif;
-    min-width: 500px;
 }
 
 /* Set standards for elements */
@@ -110,7 +109,6 @@ nav {
 /* 'hero' section */
 #hero {
     width: 100%;
-    min-width: 1200px;
     height: 700px;
     margin: 0;
     display: block;
@@ -154,7 +152,6 @@ h2 {
     font-size: 120%;
     align-self: center;
     line-height: 130%;
-    text-indent: 30px;
     padding-top: 20px;
 }
 
@@ -377,4 +374,35 @@ footer {
         height: 480px;
     }
     
+}
+
+
+@media screen and (max-width: 580px){
+
+    #about-me article {
+        height: 550px;
+    }
+
+    h3 {
+        margin: 100px 0 20px 5%;
+        width: 95%;
+    }
+
+    #contact-me {
+        overflow: overlay;
+        width: 100%;
+        background-color: white;
+    }
+
+    #contact-ul {
+        font-size: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: column;
+        height: 200px;
+        width: 80%;
+    }
+
+
 }
