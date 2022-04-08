@@ -1,5 +1,10 @@
 # My Personal Portfolio Page
 
+|   Languages   | Used |
+| ----------- | ----------- |
+| HTML     |    ✅    |
+| CSS  |    ✅     |
+| JavaScript  |    ✅    |
 
 ## Description
 
@@ -8,7 +13,7 @@ This project was about setting up a personal portfolio page where I could write 
 
 ## Essential Content
 
-The site is meant to be very basic, with only one internally associated web page for visitors to land on. Nonetheless, links to my deployed projects as well as my networking pages will direct visitors away from the site by opening these links in a new tab. 
+The site is meant to be very basic, with only one internally associated web page for visitors to land on. Nonetheless, links to my deployed projects as well as my networking pages will direct visitors away from the site by opening these links in a new tab. Functionally, this project is dominated by css to achieve an appealing layout. A little JavaScript was included to change the size of the header and its contents as the user scolls down from the top of the page.
 
 The hero section informs visitors what can be found on the page, and also includes a photograph of the property where I do my gardening. This is included as a nice backdrop for visitors first making it to the page, while also being a reflection of a place and practice that is very dear to me. 
 
