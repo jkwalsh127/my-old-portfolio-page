@@ -20,11 +20,15 @@ The 'my work' section is a flexible grid layout that provides links to and snaps
 
 The 'contact me' section closes out the page with my google voice phone number, work email, and LinkedIn and Github profile links. 
 
-## Usage
+### Site demonstration
 
-Click <a href="https://jkwalsh127.github.io/my-portfolio-page/">**here**</a> to check out my Portfolio Page!
+![site demonstration gif](./assets/images/portfolio-page-readme-gif.gif)
+
+### Usage
+
+Click <a href="https://jkwalsh127.github.io/my-portfolio-page/" target="_blank">**here**</a> to check out my Portfolio Page!
 
 
-## Credits
+### Credits
 
 Staff at UC Berkeley Extension full-stack coding bootcamp
