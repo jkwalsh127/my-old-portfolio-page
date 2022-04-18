@@ -31,7 +31,7 @@ The 'contact me' section closes out the page with my google voice phone number, 
 
 ### Usage
 
-Click <a href="https://jkwalsh127.github.io/my-portfolio-page/" target="_blank">**here**</a> to check out my Portfolio Page!
+Click <a href="https://jkwalsh127.github.io/my-old-portfolio-page/" target="_blank">**here**</a> to check out my Portfolio Page!
 
 
 ### Credits
